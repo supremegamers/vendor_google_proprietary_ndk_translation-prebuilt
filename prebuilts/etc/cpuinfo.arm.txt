@@ -1,0 +1,8 @@
+processor	: 1
+BogoMIPS	: 1.00
+Features	: neon vfp swp half thumb fastmult edsp vfpv3 vfpv4 idiva idivt
+CPU implementer	: 0x41
+CPU architecture: 8
+CPU variant	: 0x6
+CPU part	: 0x802
+CPU revision	: 13
