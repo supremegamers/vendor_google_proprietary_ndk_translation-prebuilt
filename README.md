@@ -2,10 +2,7 @@
 
 Android images fingerprints:
 
-- `ndk_translation` : google/sdk_gphone_x86_64/generic_x86_64_arm64:11/RSR1.201211.001/7027799:user/dev-keys
-
-- `ndk_translation_arm64` : google/sdk_gphone64_x86_64/emulator64_x86_64_arm64:12/S2B2.211203.006/8015633:user/dev-keys
-
+google/guybrush/guybrush_cheets:11/R112-15359.58.0/9891653:user/release-keys
 
 ## How to include it in your Android-x86 build :
 To include it, cherry-pick or make these commit as a reference:

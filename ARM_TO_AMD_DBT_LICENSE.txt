@@ -1,0 +1,22 @@
+=====================================================================
+This license applies to DBT Software inside the Android system image.
+Specifically it applies to the following files:
+
+/system/lib/libndk_translation.so
+/system/lib64/libndk_translation.so
+
+=====================================================================
+
+									Conditions on ARM-to-AMD DBT Software License
+
+Redistribution and use in source and binary forms, with or without modification, are permitted with respect to only ARM’s copyright rights in the ARM-v8 and ARM-v9 ISAs provided that the following conditions are met:
+
+	1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+
+	2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+	3. All redistributions of source and/or binary forms, with or without modification, are permitted provided that such redistribution occurs only in conjunction with the sale of a semiconductor product incorporating an AMD-64 ISA compliant central processing unit (CPU) core licensed or sold by AMD and that use and execution of such redistributed source and/or binary forms is limited to use and execution on the CPU core licensed or sold by AMD incorporated into the sold semiconductor product.
+
+For the avoidance of doubt, permission for such redistribution and use does not extend to rights other than ARM’s copyright rights in the ARM-v8 and ARM-v9 ISAs. All other intellectual property rights, including patent rights, are expressly excluded from the permissions granted herein.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
