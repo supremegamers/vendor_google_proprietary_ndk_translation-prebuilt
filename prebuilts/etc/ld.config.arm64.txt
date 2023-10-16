@@ -28,7 +28,7 @@ namespace.default.link.com_android_neuralnetworks.shared_libs = libneuralnetwork
 
 namespace.com_android_neuralnetworks.isolated = true
 namespace.com_android_neuralnetworks.visible = true
-namespace.com_android_neuralnetworks.permitted.paths = /system/${LIB}/arm
+namespace.com_android_neuralnetworks.permitted.paths = /system/${LIB}/arm64
 
 namespace.com_android_neuralnetworks.search.paths = /system/${LIB}/arm64
 namespace.com_android_neuralnetworks.asan.search.paths = /system/${LIB}/arm64
