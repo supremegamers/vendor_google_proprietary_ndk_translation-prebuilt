@@ -2,7 +2,7 @@
 
 Android images fingerprints:
 
-google/guybrush/guybrush_cheets:11/R117-15572.63.0/10876632:user/release-keys
+google/zork/zork_cheets:13/R119-15633.69.0/11189719:user/release-keys
 
 ## How to include it in your Android-x86 build :
 To include it, cherry-pick or make these commit as a reference:

@@ -45,6 +45,30 @@ namespace.com_android_neuralnetworks.link.default.shared_libs += libdl.so
 
 
 ###############################################################################
+# "com_android_i18n" APEX namespace (currently fake)
+# TODO(b/142108150): turn it into a proper APEX.
+###############################################################################
+
+additional.namespaces += com_android_i18n
+
+namespace.default.links += com_android_i18n
+namespace.default.link.com_android_i18n.shared_libs = libicuuc.so,libicui18n.so
+
+namespace.com_android_i18n.isolated = true
+namespace.com_android_i18n.visible = true
+namespace.com_android_i18n.permitted.paths = /system/${LIB}/arm64
+
+namespace.com_android_i18n.search.paths = /system/${LIB}/arm64
+namespace.com_android_i18n.asan.search.paths = /system/${LIB}/arm64
+namespace.com_android_i18n.links = default
+namespace.com_android_i18n.link.default.shared_libs  = linux-vdso.so.1
+namespace.com_android_i18n.link.default.shared_libs += libc++.so
+namespace.com_android_i18n.link.default.shared_libs += libc.so
+namespace.com_android_i18n.link.default.shared_libs += libm.so
+namespace.com_android_i18n.link.default.shared_libs += libdl.so
+
+
+###############################################################################
 # "com_android_art" APEX namespace (currently fake)
 # TODO(b/142108150): turn it into a proper APEX.
 ###############################################################################
@@ -52,7 +76,7 @@ namespace.com_android_neuralnetworks.link.default.shared_libs += libdl.so
 additional.namespaces += com_android_art
 
 namespace.default.links += com_android_art
-namespace.default.link.com_android_art.shared_libs = libicuuc.so,libicui18n.so
+namespace.default.link.com_android_art.shared_libs = libnativehelper.so
 
 namespace.com_android_art.isolated = true
 namespace.com_android_art.visible = true
@@ -62,7 +86,6 @@ namespace.com_android_art.search.paths = /system/${LIB}/arm64
 namespace.com_android_art.asan.search.paths = /system/${LIB}/arm64
 namespace.com_android_art.links = default
 namespace.com_android_art.link.default.shared_libs  = linux-vdso.so.1
-namespace.com_android_art.link.default.shared_libs += libc++.so
 namespace.com_android_art.link.default.shared_libs += libc.so
 namespace.com_android_art.link.default.shared_libs += libm.so
 namespace.com_android_art.link.default.shared_libs += libdl.so
